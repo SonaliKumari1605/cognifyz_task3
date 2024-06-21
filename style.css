@@ -1,0 +1,55 @@
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.plant{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+}
+.turmeric{
+    width: 300px;
+}
+.Neem{
+    width: 300px;
+}
+.Ginger{
+    width: 300px;
+}
+.Amla{
+    width: 300px;
+}
+.Alovera{
+    width: 300px;
+}
+p{
+    text-align:center;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(27, 65, 2);
+}
+body{
+    background-color: rgb(216, 245, 188);
+}
+@media(max-width: 768px)
+{
+    .plant{
+        width: 45%;
+    }
+    body{
+        background-color: aquamarine;
+    }
+}
+@media(max-width: 480px){
+    .plant{
+        width: 100%;
+    }
+    body{
+        background-color: hotpink;
+    }
+}
